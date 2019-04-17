@@ -1,0 +1,49 @@
+{
+  "name": "cp2020-be",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "repository": "https://github.com/JackPyro/cp2020-be.git",
+  "author": "Pyro <pyrolovesbuns@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/mongoose": "^5.3.26",
+    "joi": "^14.3.0",
+    "koa": "^2.6.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-passport": "^4.1.1",
+    "koa-qs": "^2.0.0",
+    "koa-router": "^7.4.0",
+    "lodash": "^4.17.11",
+    "mongodb": "^3.1.10",
+    "mongoose": "^5.5.2",
+    "passport-google-oauth": "^1.0.0",
+    "uuid": "^3.3.2"
+  },
+  "scripts": {
+    "prepush": "yarn run lint",
+    "lint": "tslint \"**/*.ts\" --format verbose && prettier --list-different \"**/*.{ts,js,json,css,md}\"",
+    "lint:fix": "tslint \"**/*.ts\" --format verbose --fix && prettier --write \"**/*.{ts,js,json,css,md}\"",
+    "start": "ts-node .",
+    "pm2": "yarn install && pm2 restart cp2020be"
+  },
+  "devDependencies": {
+    "@types/joi": "^14.0.1",
+    "@types/koa": "^2.0.48",
+    "@types/koa-bodyparser": "^4.2.1",
+    "@types/koa-passport": "^4.0.2",
+    "@types/koa-qs": "^2.0.0",
+    "@types/koa-router": "^7.0.37",
+    "@types/lodash": "^4.14.119",
+    "@types/mongodb": "^3.1.18",
+    "@types/node": "^11.13.4",
+    "@types/passport-google-oauth": "^1.0.39",
+    "@types/uuid": "^3.4.4",
+    "eslint": "^5.9.0",
+    "husky": "^1.2.0",
+    "prettier": "^1.15.2",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.12.1",
+    "tslint-config-prettier": "^1.17.0",
+    "typescript": "^3.2.2"
+  }
+}

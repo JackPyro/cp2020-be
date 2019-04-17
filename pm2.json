@@ -1,0 +1,10 @@
+{
+  "apps": [
+    {
+      "name": "cp2020-be",
+      "script": "./node_modules/.bin/ts-node",
+      "args": "index.ts",
+      "log_date_format": "YYYY-MM-DD HH:mm:ss.SSS Z"
+    }
+  ]
+}
