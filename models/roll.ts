@@ -26,4 +26,4 @@ schema.pre<IRoll>('validate', async function() {
   this.updatedAt = updatedAt;
 });
 
-export const Model = model<IRoll>('Roll', schema);
+export default model<IRoll>('Roll', schema);

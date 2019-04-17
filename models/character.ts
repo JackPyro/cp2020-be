@@ -32,4 +32,4 @@ schema.pre<ICharacter>('validate', async function() {
   this.updatedAt = updatedAt;
 });
 
-export const Model = model<ICharacter>('Character', schema);
+export default model<ICharacter>('Character', schema);

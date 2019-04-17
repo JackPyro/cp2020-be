@@ -10,9 +10,11 @@ export async function getMongoClient(): Promise<mongoose> {
       {
         useNewUrlParser: true
       },
-      function(error) {
+      error => {
         console.log('connected');
-        if (error) throw error;
+        if (error) {
+          throw error;
+        }
         resolve(mongoose);
       }
     );
