@@ -1,15 +1,18 @@
 import * as Koa from 'koa';
 import * as bodyParser from 'koa-bodyparser';
 import * as Router from 'koa-router';
+import * as websocket from 'koa-easy-ws';
 import * as koaQs from 'koa-qs';
-
+import { broadcast } from './middlewares/broadcaster';
 import { router as roll } from './routes/roll';
-
+import { router as live } from './routes/live';
 export const app = new Koa();
 
 koaQs(app);
 
 app.use(bodyParser());
+app.use(websocket());
+app.use(broadcast());
 app.proxy = true;
 
 app.use(async (ctx, next) => {
@@ -26,6 +29,7 @@ app.use(async (ctx, next) => {
 const router = new Router();
 
 router.use('/roll', roll.routes());
+router.use('/live', live.routes());
 
 app.use(router.routes());
 
