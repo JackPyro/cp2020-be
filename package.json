@@ -24,6 +24,7 @@
     "lint": "tslint \"**/*.ts\" --format verbose && prettier --list-different \"**/*.{ts,js,json,css,md}\"",
     "lint:fix": "tslint \"**/*.ts\" --format verbose --fix && prettier --write \"**/*.{ts,js,json,css,md}\"",
     "start": "ts-node .",
+    "dev": "nodemon -e ts,tsx --exec ts-node .",
     "pm2": "yarn install && pm2 restart cp2020be"
   },
   "devDependencies": {
@@ -40,6 +41,7 @@
     "@types/uuid": "^3.4.4",
     "eslint": "^5.9.0",
     "husky": "^1.2.0",
+    "nodemon": "^1.18.11",
     "prettier": "^1.15.2",
     "ts-node": "^7.0.1",
     "tslint": "^5.12.1",
