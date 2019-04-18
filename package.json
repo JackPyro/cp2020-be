@@ -6,6 +6,7 @@
   "author": "Pyro <pyrolovesbuns@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "dice-typescript": "^1.6.1",
     "joi": "^14.3.0",
     "koa": "^2.6.2",
     "koa-bodyparser": "^4.2.1",
