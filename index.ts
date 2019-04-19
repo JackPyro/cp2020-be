@@ -1,5 +1,6 @@
 import { app } from './app';
-import { getMongoClient } from './mongo';
+import { getMongoClient } from './mongodb';
+import { Server } from 'ws';
 import { config } from './config';
 
 /* tslint:disable:interface-name */
@@ -14,6 +15,6 @@ declare module 'koa' {
 (async () => {
   await getMongoClient();
   app.listen(config.server.port, config.server.host, () => {
-    console.log('server is running...');
+    console.log(`server is running on ${config.server.host}:${config.server.port}`);
   });
 })();
