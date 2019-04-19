@@ -8,7 +8,8 @@ export async function getMongoClient(): Promise<any> {
     mongoose.connect(
       dbUrl.href,
       {
-        useNewUrlParser: true
+        useNewUrlParser: true,
+        useCreateIndex: true
       },
       error => {
         console.log('connected');
