@@ -12,7 +12,7 @@ export async function getMongoClient(): Promise<any> {
         useCreateIndex: true
       },
       error => {
-        console.log('connected');
+        console.log('MongoDB connected');
         if (error) {
           throw error;
         }

@@ -4,6 +4,7 @@ export interface IRoll extends Document {
   characterId: Schema.Types.ObjectId;
   setup: {};
   result: {};
+  total: {};
   createdAt: Date;
   updatedAt: Date;
 }
