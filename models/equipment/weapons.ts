@@ -1,5 +1,4 @@
 import { Schema, model, Document } from 'mongoose';
-import { required } from 'joi';
 
 export interface IWeapon extends Document {
   name: string;
@@ -48,3 +47,5 @@ weapon.pre<IWeapon>('validate', async function() {
 
   this.updatedAt = updatedAt;
 });
+
+export default model<IWeapon>('weapon', weapon);
