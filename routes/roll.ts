@@ -1,7 +1,6 @@
 import * as Router from 'koa-router';
 
-import { diceRoll } from '../controllers/diceroll';
-import { diceRollPost } from '../controllers/diceroll';
+import { diceRoll, diceRollPost } from '../controllers/diceroll';
 
 export const router = new Router();
 
