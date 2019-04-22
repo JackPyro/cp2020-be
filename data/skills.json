@@ -1,0 +1,114 @@
+[
+{
+    "name":"Authority",
+    "stat":"COOL",
+    "special": true,
+    "score": 0,
+    "modifier": 1
+},    
+{
+    "name":"Charismatic Leadership",
+    "stat":"COOL",
+    "special": true,
+    "score": 0,
+    "modifier": 1
+},
+{
+	"name":"Combat Sense",
+	"stat":"REF",
+    "special": true,
+    "score": 0,
+    "modifier": 1
+},
+{
+    "name":"Credibility",
+    "stat":"INT",
+    "special": true,
+    "score": 0,
+    "modifier": 1
+},
+{
+    "name":"Family",
+    "stat":"INT",
+    "special": true,
+    "score": 0,
+    "modifier": 1
+},
+{
+    "name":"Interface",
+    "stat":"INT",
+    "special":true,
+    "score": 0,
+    "modifier": 1
+},
+{
+    "name":"Jury Rig",
+    "stat":"INT",
+    "special":true,
+    "score": 0,
+    "modifier": 1
+},
+{
+    "name":"Medical Tech",
+    "stat":"INT",
+    "special": true,
+    "score": 0,
+    "modifier": 1
+},
+{
+    "name":"Resources",
+    "stat":"INT",
+    "special": true,
+    "score": 0,
+    "modifier": 1
+},
+{
+    "name":"Street Deal",
+    "stat":"COOL",
+    "special": true,
+    "score": 0,
+    "modifier": 1
+},
+{
+    "name":"Awareness / Notice",
+    "stat":"INT",
+    "score": 0,
+    "modifier": 1
+},
+{
+    "name":"Handgun",
+    "stat":"REF",
+    "score": 0,
+    "modifier": 1
+},
+{
+    "name":"Brawling",
+    "stat":"REF",
+    "score": 0,
+    "modifier": 1
+},
+{
+    "name":"Human Perception",
+    "stat":"EMP",
+    "score": 0,
+    "modifier": 1
+},
+{
+    "name":"Education",
+    "stat":"INT",
+    "score": 0,
+    "modifier": 1
+},
+{
+    "name":"Melee",
+    "stat":"REF",
+    "score": 0,
+    "modifier": 1
+},
+{
+    "name":"Endurace",
+    "stat":"BODY",
+    "score": 0,
+    "modifier": 1
+}
+]
