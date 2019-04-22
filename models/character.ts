@@ -20,7 +20,7 @@ export interface ICharacter extends Document {
     age: string;
     sex: string;
   };
-  role: string;
+  role: {};
   stats: IStats;
   careerSkills: { [name: string]: ISkill };
   pickupSkills: { [name: string]: ISkill };
@@ -28,20 +28,23 @@ export interface ICharacter extends Document {
   updatedAt: Date;
 }
 
-const schema: Schema = new Schema({
-  meta: {
-    name: { type: String, required: true },
-    handle: { type: String, required: true },
-    sex: { type: String, required: true },
-    age: { type: Number, required: true }
+const schema: Schema = new Schema(
+  {
+    meta: {
+      name: { type: String },
+      handle: { type: String },
+      sex: { type: String },
+      age: { type: Number }
+    },
+    role: { type: Object },
+    stats: { type: Object },
+    careerSkills: { type: Object },
+    pickupSkills: { type: Object },
+    createdAt: { type: Date, index: true },
+    updatedAt: { type: Date, index: true }
   },
-  role: { type: String, required: true },
-  stats: { type: Object, required: true },
-  primarySkills: { type: Object, required: true },
-  secondarySkills: { type: Object, required: true },
-  createdAt: { type: Date, required: true, index: true },
-  updatedAt: { type: Date, required: true, index: true }
-});
+  { minimize: false }
+);
 
 schema.pre<ICharacter>('validate', async function() {
   const updatedAt = new Date();
