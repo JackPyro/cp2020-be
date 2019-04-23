@@ -7,6 +7,7 @@ import { broadcast } from './middlewares/broadcaster';
 import { router as roll } from './routes/roll';
 import { router as live } from './routes/live';
 import { router as character } from './routes/character';
+import { router as compendium } from './routes/compendium';
 export const app = new Koa();
 
 koaQs(app);
@@ -32,6 +33,7 @@ const router = new Router();
 router.use('/roll', roll.routes());
 router.use('/live', live.routes());
 router.use('/character', character.routes());
+router.use('/compendium', compendium.routes());
 
 app.use(router.routes());
 
