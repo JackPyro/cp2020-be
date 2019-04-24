@@ -9,7 +9,8 @@ export async function getMongoClient(): Promise<any> {
       dbUrl.href,
       {
         useNewUrlParser: true,
-        useCreateIndex: true
+        useCreateIndex: true,
+        useFindAndModify: false
       },
       error => {
         console.log('MongoDB connected');
