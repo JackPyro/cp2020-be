@@ -24,6 +24,7 @@ app.use(async (ctx, next) => {
     console.error(err);
 
     ctx.status = err.status || 500;
+    console.log(err);
     ctx.body = err.message;
   }
 });
@@ -38,5 +39,5 @@ router.use('/compendium', compendium.routes());
 app.use(router.routes());
 
 app.use(ctx => {
-  ctx.throw(404, 'Not Found.');
+  ctx.throw(404, 'Not Founded');
 });
