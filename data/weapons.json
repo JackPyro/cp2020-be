@@ -1,0 +1,62 @@
+[
+    {
+        "name": "BudgetArms C-13",
+        "type": "P",
+        "weaponAccuracy": 1,
+        "concealability": "P",
+        "availability": "E",
+        "damage": "1d6",
+        "ammunition": "5mm",
+        "ap": false,
+        "numberOfShots": 8,
+        "rateOfFire": 2,
+        "reliability": "ST",
+        "range": 50,
+        "cost": 75
+    },
+    {
+        "name": "Arasaka Minami 10",
+        "type": "SMG",
+        "weaponAccuracy": 1,
+        "concealability": "J",
+        "availability": "E",
+        "damage": "2d6+3",
+        "ammunition": "10mm",
+        "ap": false,
+        "numberOfShots": 40,
+        "rateOfFire": 20,
+        "reliability": "VR",
+        "range": 200,
+        "cost": 500
+    },
+    {
+        "name": "BudgetArms Auto 3",
+        "type": "P",
+        "weaponAccuracy": -1,
+        "concealability": "J",
+        "availability": "E",
+        "damage": "3d6",
+        "ammunition": "11mm",
+        "ap": false,
+        "numberOfShots": 8,
+        "rateOfFire": 2,
+        "reliability": "UR",
+        "range": 50,
+        "cost": 350
+    },
+    {
+        "name": "Arasaka Rapid Assault 12",
+        "type": "SHT",
+        "weaponAccuracy": -1,
+        "concealability": "N",
+        "availability": "C",
+        "damage": "4d6",
+        "ammunition": "12g 00 buck",
+        "ap": false,
+        "numberOfShots": 20,
+        "rateOfFire": 10,
+        "reliability": "ST",
+        "range": 50,
+        "cost": 900
+    }
+]

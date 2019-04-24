@@ -3,8 +3,15 @@ import Weapon from '../../models/equipment/weapons';
 
 export async function addWeapon(ctx, next) {
   const request = ctx.request.body;
-  const weapon = new Weapon(request);
-  await weapon.save();
-  console.log(weapon.toJSON());
-  ctx.body = weapon.toJSON();
+  Weapon.updateOne(
+      {name: request.name}, 
+      request, 
+      {upsert: true}, 
+      function (err, raw) {
+        if(err) {
+            console.log('Error occured when upserting', err, raw);
+            ctx.body = err;
+        }
+      ctx.body = {status: "updated"};
+  });
 }

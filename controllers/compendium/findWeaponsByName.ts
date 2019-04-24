@@ -2,8 +2,15 @@ import { Context } from 'koa';
 import Weapon from '../../models/equipment/weapons';
 
 export async function findWeaponsByName(ctx, next) {
-  const request = ctx.req.body;
+  const request = ctx.request.body;
   console.log(request);
-  // Weapon.find({name: request.name});
-  ctx.body = {};
+  // Don't forget to create a text index in order to use $text
+  Weapon.find({$text:{$search: request.name}}, function(err, res) {
+      if(err) {
+          ctx.body = err;
+      }
+      console.log(res);
+      ctx.body = res;
+  });
+  
 }
