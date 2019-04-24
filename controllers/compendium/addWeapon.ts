@@ -1,13 +1,9 @@
 import { Context } from 'koa';
 import Weapon from '../../models/equipment/weapons';
+import bodyParser = require('body-parser');
 
 export async function addWeapon(ctx, next) {
   const request = ctx.request.body;
-  Weapon.updateOne({ name: request.name }, request, { upsert: true }, (err, raw) => {
-    if (err) {
-      console.log('Error occured when upserting', err, raw);
-      ctx.body = err;
-    }
-    ctx.body = { status: 'updated' };
-  });
+  const weapon = await Weapon.findOneAndUpdate({ name: request.name }, request, { upsert: true });
+  ctx.body = weapon;
 }
