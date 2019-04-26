@@ -22,8 +22,8 @@ export interface ICharacter extends Document {
   };
   role: {};
   stats: IStats;
-  careerSkills: { [name: string]: ISkill };
-  pickupSkills: { [name: string]: ISkill };
+  careerSkills: { [name: string]: {} };
+  pickupSkills: { [name: string]: {} };
   createdAt: Date;
   updatedAt: Date;
 }
