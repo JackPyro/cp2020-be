@@ -1,16 +1,23 @@
 import { Context } from 'koa';
-import { Player } from '../../classes/player';
-import Character from '../../models/character';
+import { extend } from 'lodash';
 
-export async function updateCharacters(ctx, next) {
+import { Player } from '../../classes/player';
+import { reduceSkills } from '../../helpers/skillsHelpers';
+import Character from '../../models/character';
+import skill from '../../models/stats/skill';
+
+export async function updateCharacter(ctx, next) {
   const {
     params: { id },
-    request
+    request: { body }
   } = ctx;
-  console.log(request.body);
   const character = await Character.findById(id);
+
   if (!character) {
     throw new Error('character not found');
   }
+
+  await extend(character, body).save();
+
   ctx.body = character;
 }

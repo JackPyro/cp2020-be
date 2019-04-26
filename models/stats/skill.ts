@@ -3,12 +3,12 @@ import { Schema, model, Document } from 'mongoose';
 export interface ISkill extends Document {
   name: string;
   score: number;
-  special: boolean;
+  special?: boolean;
   modifier: number;
   stat: string;
-  description: string;
-  createdAt: Date;
-  updatedAt: Date;
+  description?: string;
+  createdAt?: Date;
+  updatedAt?: Date;
 }
 
 const characterSkill: Schema = new Schema({

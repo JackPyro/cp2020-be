@@ -1,4 +1,4 @@
-import { get, each } from 'lodash';
+import { get, each, extend } from 'lodash';
 import { IStats } from '../models/character';
 import { ObjectID } from 'bson';
 
@@ -12,7 +12,7 @@ export class Player {
     handle: string;
     sex: string;
   };
-  public role: { name: string; description: string; skill: string };
+  public role: { name: string; description: string };
   public stats = {};
   public careerSkills: {};
   public pickupSkills: {};
@@ -36,7 +36,7 @@ export class Player {
 
   public async setRole(role) {
     // TODO: Write Role set method
-    this.role = { name: '', description: '', skill: '' };
+    this.role = { name: '', description: '' };
   }
 
   public async setStats(stats: IStats) {
@@ -60,11 +60,11 @@ export class Player {
 
   public async setCareerSkills(skillList) {
     // TODO: Write Skill set method
-    this.careerSkills = {};
+    this.careerSkills = extend(this.careerSkills, skillList);
   }
 
   public async setPickupSkills(skillList) {
     // TODO: Write Skill set method
-    this.pickupSkills = {};
+    this.pickupSkills = extend(this.pickupSkills, skillList);
   }
 }
