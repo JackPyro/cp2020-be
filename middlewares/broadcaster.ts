@@ -9,7 +9,7 @@ export const broadcast = () => {
     ctx.broadcast = event => {
       return ctx.app.emit('broadcast_type', event);
     };
-    next();
+    await next();
   };
   return middleware;
 };
