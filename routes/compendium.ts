@@ -5,10 +5,14 @@ import { addWeapon } from '../controllers/compendium/weapons';
 import { deleteWeaponById } from '../controllers/compendium/weapons';
 import { listWeapons } from '../controllers/compendium/weapons';
 
-import { 
-    listSkills, listPrimarySkills, listPickupSkills, listSkillsByStat,
-    addSkill, deleteSkill,
-    findSkillByName
+import {
+  listSkills,
+  listPrimarySkills,
+  listPickupSkills,
+  listSkillsByStat,
+  addSkill,
+  deleteSkill,
+  findSkillByName
 } from '../controllers/compendium/skills';
 
 export const router = new Router();
