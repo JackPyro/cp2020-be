@@ -1,5 +1,6 @@
 import { Schema, model, Document } from 'mongoose';
 
+// TODO: work on getting weapon tags done, or add more meta fields for better search ux
 export interface IWeapon extends Document {
   name: string;
   type: string;
