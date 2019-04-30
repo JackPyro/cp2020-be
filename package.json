@@ -25,6 +25,7 @@
     "lint": "tslint \"**/*.ts\" --format verbose && prettier --list-different \"**/*.{ts,js,json,css,md}\"",
     "lint:fix": "tslint \"**/*.ts\" --format verbose --fix && prettier --write \"**/*.{ts,js,json,css,md}\"",
     "start": "ts-node .",
+    "migrate": "ts-node migrate.ts",
     "dev": "nodemon -e ts,tsx --exec ts-node .",
     "pm2": "yarn install && pm2 restart cp2020be"
   },

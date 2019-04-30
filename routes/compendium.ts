@@ -18,16 +18,16 @@ import {
 export const router = new Router();
 
 // Weapons reference
-router.post('/weapons/', listWeapons);
-router.post('/weapons/find', findWeaponsByName);
-router.post('/weapons/add', addWeapon);
-router.post('/weapons/delete', deleteWeaponById);
+router.get('/weapons/', listWeapons);
+router.get('/weapons/find', findWeaponsByName);
+router.post('/weapons/:id/add', addWeapon);
+router.post('/weapons/:id/delete', deleteWeaponById);
 
 // Skills reference
-router.post('/skills/', listSkills);
-router.post('/skills/primary', listPrimarySkills);
-router.post('/skills/pickup', listPickupSkills);
-router.post('/skills/stat', listSkillsByStat);
-router.post('/skills/add', addSkill);
-router.post('/skills/delete', deleteSkill);
-router.post('/skills/find', findSkillByName);
+router.get('/skills/', listSkills);
+router.get('/skills/primary', listPrimarySkills);
+router.get('/skills/pickup', listPickupSkills);
+router.get('/skills/stat', listSkillsByStat);
+router.get('/skills/find', findSkillByName);
+router.post('/skills', addSkill);
+router.post('/skills/:id/delete', deleteSkill);
