@@ -1,10 +1,12 @@
 import * as Router from 'koa-router';
 
-import { findCharacters } from '../controllers/character/findCharacters';
-import { createCharacter } from '../controllers/character/createCharacter';
-import { findCharacter } from '../controllers/character/findCharacter';
-import { updateCharacter } from '../controllers/character/updateCharacter';
-import { deleteCharacters } from '../controllers/character/deleteCharacter';
+import {
+  findCharacters,
+  createCharacter,
+  findCharacter,
+  updateCharacter,
+  deleteCharacters
+} from '../controllers/character';
 
 export const router = new Router();
 
