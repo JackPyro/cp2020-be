@@ -10,15 +10,15 @@ export async function addWeapon(ctx, next) {
 
 export async function deleteWeaponById(ctx, next) {
   const request = ctx.request.body;
-  const result = await Weapon.findByIdAndRemove({ _id: request.id });
-  ctx.body = result;
+  await Weapon.findByIdAndRemove({ _id: request.id });
+  ctx.body = { status: true };
 }
 
 export async function findWeaponsByName(ctx, next) {
   // Find a more elegant way to fall back from bad query input
-  const request = ctx.request.body;
+  const { name } = ctx.state.query;
   // Don't forget to create a text index in order to use $text
-  const weapon = await Weapon.find({ $text: { $search: request.name } });
+  const weapon = await Weapon.find({ $text: { $search: name } });
   ctx.body = weapon;
 }
 

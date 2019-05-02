@@ -14,15 +14,15 @@ export async function addSkill(ctx, next) {
 }
 
 export async function deleteSkill(ctx, next) {
-  const request = ctx.request.body;
-  const skill = await characterSkill.findByIdAndRemove({ _id: request.id });
-  ctx.body = skill;
+  const { id } = ctx.params;
+  await characterSkill.findByIdAndRemove({ _id: id });
+  ctx.body = { status: true };
 }
 
 export async function findSkillByName(ctx, next) {
-  const request = ctx.request.body;
+  const { name } = ctx.state.query;
   // Don't forget to create a text index in order to use $text
-  ctx.body = await characterSkill.find({ $text: { $search: request.name } }, { score: 0 });
+  ctx.body = await characterSkill.find({ $text: { $search: name } }, { score: 0 });
 }
 
 export async function listSkills(ctx, next) {

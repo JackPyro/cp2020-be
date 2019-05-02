@@ -1,0 +1,709 @@
+[
+  {
+    "name": "Rockerboys",
+    "description": "If you live to rock, this is where you belong. Rockerboys are the street poets, social consciences and rebels of 2000's. With the advent of digital porta-studios and garage laser disk mastering, every Rocker with a message can take it to the street; put in the record stores, bounce it off the comsats. Sometimes, this message isn't something the Corporations or Government wants to hear. Sometimes what you say is going to get right in the faces of the powerful people who really run this world. But you don't care, because as a Rockerboy, you know it's your place to challenge, whether in straight-out protest songs that tell it like it is, or just by playing kick-ass rock'n'roll to get the people away from TV sets and into the Streets. You have a proud history as a Rockerboy - Dylan, Springsteen, Who, Elvis, the Stones - the legions of hardrock heroes who told the truth with screaming guitars and gut-honest lyrics. As a Rockerboy, you have the power to get the people up - to lead, inspire and inform. A song from you can give the timid courage, the weak strength, and blind vision. Rockerboy legends have led armies against Corporations and Governments. Rockerboy songs have exposed corruption, brought down dictators. It's a lot of power for a guy doing gigs every night in another city. But you can handle it. After all - you came to play!",
+    "primarySkill": {
+      "name": "Charismatic Leadership",
+      "stat": "COOL",
+      "special": true,
+      "score": 0,
+      "modifier": 1,
+      "description": "This skill allows the Rocker to sway crowds equal to his level squared time 200. This ability (added to your Cool stat) allows the Rockerboy to control, incite and charm large number of people through his or her performance skills. When under the Rocker's control, this group can easily be persuaded to act on his suggestion; for example, a Rocker could convince a concert crowd to riot in the streets or attack a heavily fortified police line. Charismatic Leadership will only work with groups of ten or more people as it is primarily a mob leadership ability. The higher your Charismatic Leadership, the larger a crowd you can control and the more direct and complex the instructions you can get them to follow. For example, a Level +3 Leadership could incite a nightclub crowd to get rowdy. A Level +5 or +6 could provoke a concert crowd of thousands to trash a neighborhood, if the area wasn't too far from hall. At Level +9, and higher, you have the same sort of mesmeric ability as an Adolph Hitler - you can raise armies, start movements. And destroy nations."
+    },
+    "careerSkills": [
+      {
+        "name": "Awareness/Notice",
+        "stat": "INT",
+        "score": 0,
+        "modifier": 1,
+        "description": "This is equivalent of a \"trained observer\" skill, allowing characters to notice or be aware of clues, shadowers and other events. With an Awareness of +2 you will usually spot small pieces of paper with noted on them, doors left ajar , and obvious expressions of lying or dislike. An Awareness of +5 or better allows you to spot fairly well hidden clues, and fairly sophisticated attempts to \"shadow\" you. With an Awareness of +8 or greater, you routinely perform the sorts of deductive reasoning seen in the average TV cop show (\"The murder was left handed because this knife has a specialized handle\"). Sherlock Holmes has a +10 Awareness. Players without skill may only use their Intelligence Stat."
+      },
+      {
+        "name": "Perform",
+        "stat": "EMP",
+        "score": 0,
+        "modifier": 1,
+        "description": "The skill of trained acting, singing, etc. A trained performer of +4 or greater can successfully sing for payment at wedding or small clubs. Performers of +6 or greater will be considered to be of professional caliber, and may have lucrative contacts and fans. Performers of +9 or greater are of 'star': caliber, have a large number of fans, and may be recognized on the street."
+      },
+      {
+        "name": "Wardrobe and Style",
+        "stat": "ATTR",
+        "score": 0,
+        "modifier": 1,
+        "description": "The skill of knowing the right clothes to wear, when to wear them, and how to look cool even in a spacesuit. With Wardrobe +2 or better, you are good at choosing clothes off the rack. At +6, your friends ask you for wardrobe tips, and you never buy anything off the rack. At +8 or better, you are one of those rare people whose personal style influences major fashion trends."
+      },
+      {
+        "name": "Composition",
+        "stat": "INT",
+        "score": 0,
+        "modifier": 1,
+        "description": "The required for writing songs, articles, or stories. A Composition Skill of +4 or greater gives your character the ability to produce salable work. A Skill of +8 or more produces work of such a high caliber that the creator may have a strong literary following and not a little critical acclaim."
+      },
+      {
+        "name": "Brawling",
+        "stat": "REF",
+        "score": 0,
+        "modifier": 1,
+        "description": "The skill of fighting man to man with fist, feet and other parts of the body. Brawling is not a trained skill - it is learned on the Street by getting into a lot of fights. Unlike Martial Arts, there are no specialized attacks and no damage bonuses based on level of mastery."
+      },
+      {
+        "name": "Play Instrument",
+        "stat": "TECH",
+        "score": 0,
+        "modifier": 1,
+        "description": "The skill of knowing how to play a musical instrument. You must take this skill separately for each type of instrument played. A skill of +4 or higher will qualify your character to play professional \"gigs\". A Skill of +8 and above will gain musician some professional acclaim, possibly with recording contracts and command performances. At +10, you are widely acclaimed, have lots of Grammys, and regularly jam with Kerry Eurodyne."
+      },
+      {
+        "name": "Streetwise",
+        "stat": "COOL",
+        "score": 0,
+        "modifier": 1,
+        "description": "The knowledge of the \"seamy\" ways of life - where to get illegal and contraband things, how to talk to the criminal environment, and avoiding bad situations in bad neighborhoods. With Streetwise of +3 or better, you can get \"hot\" items, torture drugs, etc. A Streetwise of +5 would know you to arrange a murder contract, you know a few mobsters who might owe you, and be able to call on muscle when you need it. At +8 or better, you could become a major crimelord yourself and the middlemen."
+      },
+      {
+        "name": "Persuasion and Fast Talk",
+        "stat": "EMP",
+        "score": 0,
+        "modifier": 1,
+        "description": "The ability to talk others into doing what you want. This may be used individually or on large groups. At +3, you can win most debates or convince your girlfriend the blonde you were was your sister. At +5, you are a smooth talker of professional caliber. Ronald Reagan a Persuasion of +7. Hitler a Persuasion of +9."
+      },
+      {
+        "name": "Seduction",
+        "stat": "EMP",
+        "score": 0,
+        "modifier": 1,
+        "description": "The skill of forming and maintaining romantic relationships (this includes your abilities as a lover). This skill may be used to determine whether or not players can form relationships with other non-players characters and the intensity of these relationships. In certain cases, Referees may want to average this skill with a player's Attractiveness to get a more realistic outcome."
+      }
+    ]
+  },
+  {
+    "name": "Solos",
+    "description": "You were reborn with a gun in your hand - the flesh and blood hand, not the metallic weapon factory the covers most of your arm. Whether as a freelance guard and killer-for-hire, or as one of the Corporate cybersoldiers that enforce business deals and the Company's \"black operations\", you're one of the elite fighting machines if the Cyberpunk world.Most Solos have put in military time, either in a Corporate army or in one of the Government's continual \"police actions\" around the world. As the battle damage piles up, you start to rely more and more upon hardware - cyberlimbs for weapons and armor, bio-program chips to increase your reflexes and awareness, combat drugs to give you that edge over your opponents. When you're the best of the best, you might even leave the ranks of Corporate samurai and go ronin - freelancing your lethal talents as killer, bodyguard or enforcer to whoever can pay your very high fees. Sounds good? There's a price - a heavy one. You're lost so much of your original meat body that you're almost a machine, Your killing reflexes are so jacked up that you have to restrain yourself from going berserk at any moment. Years of combat drugs taken to keep the edge have given you terrifying addictions. You can't trust anyone - your mother, your friends, your lovers - no one. One night you sleep in penthouse condo in the City - the next in a filthy alley on the Street. But that's the price of being the best. And you're willing to pay it. Because you're a Solo.",
+    "primarySkill": {
+      "name": "Combat Sense",
+      "stat": "REF",
+      "special": true,
+      "score": 0,
+      "modifier": 1,
+      "description": "This ability is based on Solo's constant training and professionalism. Combat Sense allows the Solo to perceive danger, notice traps, and have an almost unearthly ability to avoid harm. Your Combat Sense gives you a bonus on both your Awareness skill and your Initiative equal to your level in the Combat Sense skill."
+    },
+    "careerSkills": [
+      {
+        "name": "Awareness/Notice",
+        "stat": "INT",
+        "score": 0,
+        "modifier": 1,
+        "description": "This is equivalent of a \"trained observer\" skill, allowing characters to notice or be aware of clues, shadowers and other events. With an Awareness of +2 you will usually spot small pieces of paper with noted on them, doors left ajar , and obvious expressions of lying or dislike. An Awareness of +5 or better allows you to spot fairly well hidden clues, and fairly sophisticated attempts to \"shadow\" you. With an Awareness of +8 or greater, you routinely perform the sorts of deductive reasoning seen in the average TV cop show (\"The murder was left handed because this knife has a specialized handle\"). Sherlock Holmes has a +10 Awareness. Players without skill may only use their Intelligence Stat."
+      },
+      {
+        "name": "Handgun",
+        "stat": "REF",
+        "score": 0,
+        "modifier": 1,
+        "description": "You must have this skill to effectively use handguns of any type, including cyberware types. At +2, you ca use a handgun on a target range, through combat will still rattle you. At +5, you are as skilled as most military officers of fancy shooting you see on TV, and have begun to get a reputation of being \"good with gun\". A +8, you are a recognized gunslinger with a \"rep\". The very sound of your name makes some people back down in fear. At +10, you are a legendary gunslinger, feared by all except the stupid young punks who keep trying to \"take\" you in innumerable gunfight challenges."
+      },
+      {
+        "name": "Brawling",
+        "stat": "REF",
+        "score": 0,
+        "modifier": 1,
+        "description": "The skill of fighting man to man with fist, feet and other parts of the body. Brawling is not a trained skill - it is learned on the Street by getting into a lot of fights. Unlike Martial Arts, there are no specialized attacks and no damage bonuses based on level of mastery."
+      },
+      {
+        "name": "Martial Art",
+        "stat": "REF",
+        "score": 0,
+        "modifier": 1,
+        "description": "This skill covers any type of trained fighting style using hands, feet, or specialized \"martial arts\" weapons. You must elect a style of martial art and take a separate skill for each style (for example, you would have to take Karate and Judo separately, spending points for each one. Difficulty modifiers are listed in () next tot each skill listed below.The primary advantage to martial arts styles is that each one has what are called key attacks; attacks that reflect particular strengths of style. When a key attack is used, there is to-hit bonus based on the attack type and martial arts style. A full table of key attacks is listed in Friday Night.The second advantage to martial arts styles is that there is a damage bonus on attacks equal to the level of the Martial Arts skill; for example, a master with a +10 Kung Fu Skill would add 10 points to his damage. This can be formidable advantage, particularly in head strikes (which double damage)."
+      },
+      {
+        "name": "Melee",
+        "stat": "REF",
+        "score": 0,
+        "modifier": 1,
+        "description": "The ability to use knives, axes, clubs and other hand to hand weapons in combat. Note: when using non-ranged cyberweapons such as rippers, scratchers, slice n'dices, cyberbeasts, and battlegloves, you must use this skill."
+      },
+      {
+        "name": "Weapons Tech",
+        "stat": "TECH",
+        "score": 0,
+        "modifier": 1,
+        "description": "The required skill for repairing and maintaining weapons of all types. At level +2, you can do repairs and field stripping. At level +6, you can repair all types of weapons and make simple modifications. At level +8. You can design your own weapons to order."
+      },
+      {
+        "name": "Rifle",
+        "stat": "REF",
+        "score": 0,
+        "modifier": 1,
+        "description": "You must have this skill to use riffle/shotguns effectively (see Handgun limitations and modifiers)."
+      },
+      {
+        "name": "Athletics",
+        "stat": "REF",
+        "score": 0,
+        "modifier": 1,
+        "description": "This skill is required for accurate throwing, climbing, and balancing. It combines the basic elements of any high school level sports program. At +3 and above, you are the equivalent of a real high school \"jock\". At +5 and above, you can perform in college level competitions. At +8 and above, you are of Olympic or Professional caliber."
+      },
+      {
+        "name": "Submachinegun",
+        "stat": "REF",
+        "score": 0,
+        "modifier": 1,
+        "description": "You must have this skill to use any type of submachine gun effectively (see Handgun for limitations and modifiers)."
+      },
+      {
+        "name": "Stealth",
+        "stat": "REF",
+        "score": 0,
+        "modifier": 1,
+        "description": "The skill of hiding in shadows, moving silently, evading guards, etc. A Stealth Skill of +1 is about the level of a very sneaky 10 year old stealing cookies. At +3, you are able to get past most guards, or your parents if you've been grounded. At +6, you are good enough to slip smoothly from shadow and not make any noise. At +8, you are the equal of most Ninja warriors. At +10, you move as silently as a shadow, making the Ninja sound like elephants."
+      }
+    ]
+  },
+  {
+    "name": "Netrunners",
+    "description": "At three, your parents bought you an old Apple IV GS with a Radius 241 wall screen, and your life was changed. By fifth grade, you'd already mastered everything the school computer literacy lab could throw at you -you were already using C and META-LINGUA to crack into the district's mainframe and change your grades. When you were thirteen, you shifted enough funds out of unprotected TransAmerican Bank accounts to finance your first neural interface plugs. Now, nothing can stop you With your direct mental link to the computer, you can plunge headfirst into the dizzying data-winds of the Net; the worldwide telecommunications system that joins humanity together. As an electronic wraith, you are the ultimate \"hacker\", your brain wired into special modems and computer links. You slip into the \"hardest\" mainframe systems with ease. Your defense and offense programs are arrayed at a touch of your mental fingertips - a quick jolt of Demon or Vampire and the data fortresses fall. EBM. ITT. Sony-Matsushita-Ford. You've tackled them all, buying, trading and selling their deepest secrets at will. Sometimes you uncover important things - Corporate treachery or deadly secrets. But that's not why you Netrun. You live for the new program, the next satellite downlink - the next piece of hot data that comes your way. It's only a matter of time, you think - every year, the counter intrustion programs get better, the Artificial Intelligences smarter. Sooner or later, a faster program or programmer's going to catch up; reach out with electronic fingers through your interface plugs, and stop your heart. But time's on your side, and until the ride runs out, you'll be there, barebrained and headfirst in the Net.",
+    "primarySkill": {
+      "name": "Interface",
+      "stat": "INT",
+      "special": true,
+      "score": 0,
+      "modifier": 1,
+      "description": "This skill reflects the Netrunner's ability to manipulate Interface programs, and is the Skill used when operating Menu functions such as Locate Remote, Downlink, Load, create and Delete. Others players can enter the Net, but cannot use the Menu. Note for Cyberpunk I players - you may elect to swap your original INT and REF stats for characters generated with the old rule."
+    },
+    "careerSkills": [
+      {
+        "name": "Awareness/Notice",
+        "stat": "INT",
+        "score": 0,
+        "modifier": 1,
+        "description": "This is equivalent of a \"trained observer\" skill, allowing characters to notice or be aware of clues, shadowers and other events. With an Awareness of +2 you will usually spot small pieces of paper with noted on them, doors left ajar , and obvious expressions of lying or dislike. An Awareness of +5 or better allows you to spot fairly well hidden clues, and fairly sophisticated attempts to \"shadow\" you. With an Awareness of +8 or greater, you routinely perform the sorts of deductive reasoning seen in the average TV cop show (\"The murder was left handed because this knife has a specialized handle\"). Sherlock Holmes has a +10 Awareness. Players without skill may only use their Intelligence Stat."
+      },
+      {
+        "name": "Basic Tech",
+        "stat": "TECH",
+        "score": 0,
+        "modifier": 1,
+        "description": "The required skill for building or repairing simple mechanical and electrical devices, such as car engines, television sets, etc. With a Basic Tech Skill of +3, or better, you can fix minor car problems, repair basic wiring, etc. A Basic Tech Skill of +6 or better can repair stereos and TVs, rebuild an engine, etc. A Basic Tech Skill of +9 or better can build a simple computer from scratch, put together a race car engine, and maintain any kind of industrial machinery. However, they do not know enough specialized knowledge to apply it to complex things such as aircraft (just like Mr. Goodwrench) doesn't know how to build and service an F-16)."
+      },
+      {
+        "name": "Education and General Knowledge",
+        "stat": "INT",
+        "score": 0,
+        "modifier": 1,
+        "description": "This skill is the equivalent of a basic public school education, allowing you to know how to read, write, use basic math, and know enough history to get by. In effect, it is a \"lore\" or trivaia skill. A level of +1 is a basic grade school education. A skill of +2 is equal to a high school equivalency. A Knowledge Skill of +3 is equal to a college education, +4 or higher is equal to a Masters or Doctorate. At +7, you are an extremely well-educated person, and are asked to play Trival Pursuit a lot. At +9 and above, you are one of those people who knows a lot about everything (and hopefully has the good sense to keep his mouth shut)."
+      },
+      {
+        "name": "System Knowledge",
+        "stat": "INT",
+        "score": 0,
+        "modifier": 1,
+        "description": "Basic knowledge of the geography of the Net, it's lore and history, as well as knowledge of the important computer systems, their strengths and their weaknesses. At +2, you can generally navigate around the Net and know where all the local places are. At +6, you know the locations of most places in the Net, and have a working understanding of its largest and most well know systems. At +9, you know the entire Net like the back of your hand, know the general layouts of the important systems cold, and are aware of the layouts for the rest of them."
+      },
+      {
+        "name": "CyberTech",
+        "stat": "TECH",
+        "score": 0,
+        "modifier": 1,
+        "description": "The required skill for repairing and maintaining cyberware. At level +2, you can keep your cyberware turned up and replace its power batteries. At level +6, you can strip down most cyberware and even make simple modifications. At level +8, you can design your own cyberware to order."
+      },
+      {
+        "name": "Cyberdeck Design",
+        "stat": "TECH",
+        "score": 0,
+        "modifier": 1,
+        "description": "The required skill for designing cyberdecks. At level +4, you can modify an existing cyberdeck for greater speed or memory. At level +6, you can design a deck equal to most existing designs. At +8, you can design decks that are substantially improved over existing designs."
+      },
+      {
+        "name": "Composition",
+        "stat": "INT",
+        "score": 0,
+        "modifier": 1,
+        "description": "The required for writing songs, articles, or stories. A Composition Skill of +4 or greater gives your character the ability to produce salable work. A Skill of +8 or more produces work of such a high caliber that the creator may have a strong literary following and not a little critical acclaim."
+      },
+      {
+        "name": "Electronics",
+        "stat": "TECH",
+        "score": 0,
+        "modifier": 1,
+        "description": "The required skill for maintaining, repairing and modifying electronic instruments such as computers, personal electronics hardware, electronic security systems, cameras and monitors."
+      },
+      {
+        "name": "Programming",
+        "stat": "INT",
+        "score": 0,
+        "modifier": 1,
+        "description": "The required skill to write programs and re-program computer system. This skill does not allow players to actually do repairs on a computer (this requires Electronics). With a Programming Skill of +1, you can do simple EBASIC programs. A Programming Skill of +3 or better allows you to know some higher level languages and he able to write reasonably complex programs (including video games). Players with Programming Skill +6 or better are considered to be professionals, who can build operating software, design mainframe systems, and hold down a steady job at your average Silicon Valley firm. With a Programming Skill of +9 or better, other programmers speak your name with reverence (\"You invented Q? Wow!\"), young hackers set soft to crack your systems, and any computer software you design instantly gets used by every business application in wide world."
+      }
+    ]
+  },
+  {
+    "name": "Techies",
+    "description": "You can't leave anything alone - if it sits near you for more than five minutes, you've disassembled it and made it into something new. You've always got at least two screwdrivers and wrench in your pockets. Computer down? No problem. Hydrogen burner out in your Metrocar? No problem. Can't get the video to run or your interface plugs feedbacking? No problem. You make your living building, fixing and modifying - a crucial occupation in a technological world where no one person really knows how half the stuff works. You can make some good bucks fixing everyday stuff, but fir the serious money, you need to tackle the big jobs. Illegal weapons. Illegal or stolen cybertech. Corporate espionage and counterespionage gear for big boys' \"black operations\". Neat little gadgets like termite bombs and the hunter-killer robots for the occasional \"termination\". If you're any good, you're making a lot of money. And that money goes into new gadgets, hardware and information. You'll buy almost any new thing - because it might have dozen side applications you can use. Of course, your black market work isn't just making you friends - it's also racking you up an impressive number of enemies as well; people who've run into your handiwork and resented it. So you'll invest a lot in defense systems and, if really pushed to the wall, call a few new markers on a Solo or two. Your cousin down the street is like you, but he's a Medtechie. In world where half of medicine is related to mechanics, it makes sense. He can do a black market surgical technique faster than you can fix a toaster and the Solos are always running to him to patch up wounds or install new illegal cybernetics. He's got a lot of the same problems you have, but he's hoping his new job with Trauma Team Inc. Tm will loosen things up You hope he's right. You may be needing his services sooner than think.",
+    "primarySkill": {
+      "name": "Jury Rig",
+      "stat": "INT",
+      "special": true,
+      "score": 0,
+      "modifier": 1,
+      "description": "This general repair skill allows the Techie to temporarily repair or alter anything for 1D6 turns per level; after the elapsed time, the jury rig will break down."
+    },
+    "careerSkills": [
+      {
+        "name": "Awareness/Notice",
+        "stat": "INT",
+        "score": 0,
+        "modifier": 1,
+        "description": "This is equivalent of a \"trained observer\" skill, allowing characters to notice or be aware of clues, shadowers and other events. With an Awareness of +2 you will usually spot small pieces of paper with noted on them, doors left ajar , and obvious expressions of lying or dislike. An Awareness of +5 or better allows you to spot fairly well hidden clues, and fairly sophisticated attempts to \"shadow\" you. With an Awareness of +8 or greater, you routinely perform the sorts of deductive reasoning seen in the average TV cop show (\"The murder was left handed because this knife has a specialized handle\"). Sherlock Holmes has a +10 Awareness. Players without skill may only use their Intelligence Stat."
+      },
+      {
+        "name": "Basic Tech",
+        "stat": "TECH",
+        "score": 0,
+        "modifier": 1,
+        "description": "The required skill for building or repairing simple mechanical and electrical devices, such as car engines, television sets, etc. With a Basic Tech Skill of +3, or better, you can fix minor car problems, repair basic wiring, etc. A Basic Tech Skill of +6 or better can repair stereos and TVs, rebuild an engine, etc. A Basic Tech Skill of +9 or better can build a simple computer from scratch, put together a race car engine, and maintain any kind of industrial machinery. However, they do not know enough specialized knowledge to apply it to complex things such as aircraft (just like Mr. Goodwrench) doesn't know how to build and service an F-16)."
+      },
+      {
+        "name": "CyberTech",
+        "stat": "TECH",
+        "score": 0,
+        "modifier": 1,
+        "description": "The required skill for repairing and maintaining cyberware. At level +2, you can keep your cyberware turned up and replace its power batteries. At level +6, you can strip down most cyberware and even make simple modifications. At level +8, you can design your own cyberware to order."
+      },
+      {
+        "name": "Teaching",
+        "stat": "INT",
+        "score": 0,
+        "modifier": 1,
+        "description": "The skill of imparting knowledge to someone (if you don't think this is skill, you ought tot try is someone). Players may not teach any skill unless they have a higher skill level than a student. The referee is the final arbiter of how long it takes to teach a skill. At a Teaching Skill of +3 or better, you can professionally teach students up to High School. At +6, you know enough to be a college professor (if you want). At +9 or greater, you are recognized by others in the field as good enough to guest lecture at MIT or Cal Tech; your texts on the subject are quoted as a major references, and you might have a TV show on the equivalent of PBS channel."
+      },
+      {
+        "name": "Education and General Knowledge",
+        "stat": "INT",
+        "score": 0,
+        "modifier": 1,
+        "description": "This skill is the equivalent of a basic public school education, allowing you to know how to read, write, use basic math, and know enough history to get by. In effect, it is a \"lore\" or trivaia skill. A level of +1 is a basic grade school education. A skill of +2 is equal to a high school equivalency. A Knowledge Skill of +3 is equal to a college education, +4 or higher is equal to a Masters or Doctorate. At +7, you are an extremely well-educated person, and are asked to play Trival Pursuit a lot. At +9 and above, you are one of those people who knows a lot about everything (and hopefully has the good sense to keep his mouth shut)."
+      },
+      {
+        "name": "Electronics",
+        "stat": "TECH",
+        "score": 0,
+        "modifier": 1,
+        "description": "The required skill for maintaining, repairing and modifying electronic instruments such as computers, personal electronics hardware, electronic security systems, cameras and monitors."
+      },
+      {
+        "name": "Electronic Security",
+        "stat": "TECH",
+        "score": 0,
+        "modifier": 1,
+        "description": "The skill of installing or countering electronic eyes, electronic locks, bugs and tracers, security cameras, pressure plates, etc. At level +3, you can jimmy or install most apartment locks and security cams. At +6, you can override most corporate office locks and traps. At +9, you can enter most high security area with impunity."
+      },
+      {
+        "name": "Weapons Tech",
+        "stat": "TECH",
+        "score": 0,
+        "modifier": 1,
+        "description": "The required skill for repairing and maintaining weapons of all types. At level +2, you can do repairs and field stripping. At level +6, you can repair all types of weapons and make simple modifications. At level +8. You can design your own weapons to order."
+      },
+      {
+        "name": "AV Tech",
+        "stat": "TECH",
+        "score": 0,
+        "modifier": 1,
+        "description": "The required skill for repairing all ducted fan aerodyne vehicles. At +3, you can perform routine maintenance. At +6, you can tear down engines and modify an AV. At +10, you can design your own AVs on common airframes."
+      },
+      {
+        "name": "Aero Tech",
+        "stat": "TECH",
+        "score": 0,
+        "modifier": 1,
+        "description": "The required skill for repairing fixed wing aircraft, including Ospreys, jets, and light aircraft. With a Skill of +3, you can perform most routine maintenance tasks. With a Skill of +6, you can do engine tear downs and major structural repairs. With a Skill +9 or better you are capable of designing and building your own aircraft."
+      }
+    ]
+  },
+  {
+    "name": "Medias",
+    "description": "They're bending truth out there. And you're going to stop them. Someone has to do it. The Corporations rule the world. They dump toxics, destabilize economies and commit murder with equal impunity. The Government won't stop them - they own the Government. The only thing between the Corporations and world domination is the Media. And that's you. You've got a videocam and press pass - and you're not afraid to use them. You're a national figure, seen nightly on a million TV sets worldwide. You've got fans, contacts and your own Corporation backing you. They can't make you disappear. When you dig down for the dirt and slime the corrupt officials and Corporate lapdogs try to cover up, you can dig deep. The next morning, you can put the details of their crimes all over the screamsheets and vidscreens. Then the Government has to act. A week ago, you followed a hot lead and discovered a medical corporation dumping illegal drugs on the Street. This week, you're uncovered a secret Corporate war in South America - a war with jets, bombs, and cybertroops that's killed almost seven thousand innocent people. Each new story you get to the air is one more blow for freedom and justice. Not mention ratings. It isn't easy. They've tried to pressure your Mediacorp dozen of times. You've had stories suppressed - once, Corporate pressure forced them to cancel your news show. Each time, you went to the top, backed by your news director and crew, and fought to get the story out. Three of four times, they tried to kill you - that's why your backup's a crack Solo bodyguard and you've got one of the top Runners in the business digging through the Net to back your stories. You have to be good, or else. Your Runner's just phoned in with a hot lead. He's found a line on twenty tons of illegal weapons being shifted to a port in Bolivia - possibly nuclear. You grab your gear and flag your backup. You're going to break those bastards. This time, for sure.",
+    "primarySkill": {
+      "name": "Credibility",
+      "stat": "INT",
+      "special": true,
+      "score": 0,
+      "modifier": 1,
+      "description": "This is the ability to be believed: by your viewers, by the police, by important and powerful people. This is critical to getting your story heard and acted upon, as well as convincing people to tell you things, give you information, or get you into where the story really happening. The higher your Credibility, the more people you can convince, and the easier it to convince high level authorities of the truth of your information. With level +3 Credibility, you can convince most people of minor scandals. With a level +5 or +6 you can convince local officials of military atrocities, undercover dealings and other front page stuff. At level +9, you can successfully expose a scandal of Watergate proportions, or convince the President of the EuroMarket Finance Board that aliens are secretly influencing world leaders. Credibility applies to your INT stat."
+    },
+    "careerSkills": [
+      {
+        "name": "Awareness/Notice",
+        "stat": "INT",
+        "score": 0,
+        "modifier": 1,
+        "description": "This is equivalent of a \"trained observer\" skill, allowing characters to notice or be aware of clues, shadowers and other events. With an Awareness of +2 you will usually spot small pieces of paper with noted on them, doors left ajar , and obvious expressions of lying or dislike. An Awareness of +5 or better allows you to spot fairly well hidden clues, and fairly sophisticated attempts to \"shadow\" you. With an Awareness of +8 or greater, you routinely perform the sorts of deductive reasoning seen in the average TV cop show (\"The murder was left handed because this knife has a specialized handle\"). Sherlock Holmes has a +10 Awareness. Players without skill may only use their Intelligence Stat."
+      },
+      {
+        "name": "Composition",
+        "stat": "INT",
+        "score": 0,
+        "modifier": 1,
+        "description": "The required for writing songs, articles, or stories. A Composition Skill of +4 or greater gives your character the ability to produce salable work. A Skill of +8 or more produces work of such a high caliber that the creator may have a strong literary following and not a little critical acclaim."
+      },
+      {
+        "name": "Education and General Knowledge",
+        "stat": "INT",
+        "score": 0,
+        "modifier": 1,
+        "description": "This skill is the equivalent of a basic public school education, allowing you to know how to read, write, use basic math, and know enough history to get by. In effect, it is a \"lore\" or trivaia skill. A level of +1 is a basic grade school education. A skill of +2 is equal to a high school equivalency. A Knowledge Skill of +3 is equal to a college education, +4 or higher is equal to a Masters or Doctorate. At +7, you are an extremely well-educated person, and are asked to play Trival Pursuit a lot. At +9 and above, you are one of those people who knows a lot about everything (and hopefully has the good sense to keep his mouth shut)."
+      },
+      {
+        "name": "Persuasion and Fast Talk",
+        "stat": "EMP",
+        "score": 0,
+        "modifier": 1,
+        "description": "The ability to talk others into doing what you want. This may be used individually or on large groups. At +3, you can win most debates or convince your girlfriend the blonde you were was your sister. At +5, you are a smooth talker of professional caliber. Ronald Reagan a Persuasion of +7. Hitler a Persuasion of +9."
+      },
+      {
+        "name": "Human Perception",
+        "stat": "EMP",
+        "score": 0,
+        "modifier": 1,
+        "description": "The skill of detecting any evasions, moods and other emotional clues from others. At +2, you can usually feel when you're not getting the whole truth. At +6, you can detect subtle evasions and mood swings. At +8, you can not only detect subtle emotional clues, but can usually tell what the subject is hiding in a general way."
+      },
+      {
+        "name": "Social",
+        "stat": "EMP",
+        "score": 0,
+        "modifier": 1,
+        "description": "The ability to deal with social situations, like knowing the right fork to use or when not to tell the joke about farmer's daughter and the travelling cyberware salesman. A Social skill of +2 or better will allow you to get by at any fine restaurant or social function. At +5, you can lunch with the President with aplomb. No social situation will faze you , no matter what. At +8 or above, you can lecture Emily Post on what's proper."
+      },
+      {
+        "name": "Streetwise",
+        "stat": "COOL",
+        "score": 0,
+        "modifier": 1,
+        "description": "The knowledge of the \"seamy\" ways of life - where to get illegal and contraband things, how to talk to the criminal environment, and avoiding bad situations in bad neighborhoods. With Streetwise of +3 or better, you can get \"hot\" items, torture drugs, etc. A Streetwise of +5 would know you to arrange a murder contract, you know a few mobsters who might owe you, and be able to call on muscle when you need it. At +8 or better, you could become a major crimelord yourself and the middlemen."
+      },
+      {
+        "name": "Photo and Film",
+        "stat": "TECH",
+        "score": 0,
+        "modifier": 1,
+        "description": "The skill of producing professional caliber photographs or motion pictures. A skill of +2 allows you to make decent home movies. A Skill +4 or better creates work capable of winning amateur contests. A Skill of +6 or better will produce work of the level of the average Playboy cover or rock video. A photographer or cinematographer with a Skill of +8 known and probably famous."
+      },
+      {
+        "name": "Interview",
+        "stat": "EMP",
+        "score": 0,
+        "modifier": 1,
+        "description": "The skill of eliciting interesting anecdotes from interview subject. This information will be of a more non-specific and personal nature rather than specific knowledge (distinguishing this skill from the skill Interrogation, where the user is trying to extract exact information. (Example: Barbara Walters interviews, Mike Wallace interrogates). At +3 or better, the subject will usually tell you only information relating to what he/she is well known for. At +6 or better, the subject will tell you anecdotes about the past, pontificate about favorite interests and philosophies, etc. At +9 or better, he/she tells you everything - including personal information about their illegitimate son, the time they stole a cookie at age +4, and the fact that no one ever loved them."
+      }
+    ]
+  },
+  {
+    "name": "Cops",
+    "description": "In the old days, they only used to shoot at cops. Now you're lucky if you just take a slug. The Street is mean these days, filled with new drugs, new gangs, and new weapons that make an M-16 look like a kid's toy. If you're on a City Force, you know how bad it is. You're carrying at least four high caliber weapons, most of them full-auto types, wearing a Kevlar vest that'll stop 850 ft/lbs per square inch - and you're still outgunned and outflanked. Half the gangs are cyber to begin with - super speed, super reflexes, can see in the dark, carry weapons in their arms... The other half are freelance Corporate mercs - gangs hired by the Corps to enforce their policies on the Street. And there you are - a beat cop or detective in an armored squadcar, patrolling this jungle with the heavy predators. The Corporate Cops - now that's the life. Heavy weapons, full combat armor, Trauma Team tm backup, AV-4 assault vehicles and gyrocopters with miniguns. But they only patrol the sectors of the City that the Government's licensed them for. The nice, clean sectors full of new office buildings and fancy restaurants - where no jacked up psychopunk is going to ever go on a killing spree with an AK-47. You get the bad sections. Burned out buildings and abadoned cars, where every night is a new firefight and another great opportunity for a messy death. If you're really unlucky, you might draw PsychoSqaud detail. PsychoSquad guys get the job of hunting down heavily armed and armored cyborgs who've flipped out. Sure the PS guys have access to railguns, gyros and AVs. But a cyberpsycho can walk through machine gun fire and not feel it. A lot of the PsychoSquad detectives are crazy themselves. They load up with boosted reflexes, get some monstrously huge guns, and go hunt the cyborgs solo. But you're not that crazy. Yet.",
+    "primarySkill": {
+      "name": "Authority",
+      "stat": "COOL",
+      "special": true,
+      "score": 0,
+      "modifier": 1,
+      "description": "The ability to intimidate and control others through your position as Lawmen. This attribute represents the Cop's ability to call on the forces of the Law and Government to get what he wants. Cops can use Authority to question suspects, arrest wrongdoers, and defend innocents. Backed by the power of Authority, a cop can arrest, detain, confiscate and enter nearly anywhere, as long as he has the proper arrest or search warrants to back his play. However, authority is only as good as guy holding badge - if the cop appears uncertain of his Authority there's a good chance he'll get nailed by the people his trying to confront, the more able you are to face down criminals, particularity high level mobsters and officials. Authority is applied to your Cool stat."
+    },
+    "careerSkills": [
+      {
+        "name": "Awareness/Notice",
+        "stat": "INT",
+        "score": 0,
+        "modifier": 1,
+        "description": "This is equivalent of a \"trained observer\" skill, allowing characters to notice or be aware of clues, shadowers and other events. With an Awareness of +2 you will usually spot small pieces of paper with noted on them, doors left ajar , and obvious expressions of lying or dislike. An Awareness of +5 or better allows you to spot fairly well hidden clues, and fairly sophisticated attempts to \"shadow\" you. With an Awareness of +8 or greater, you routinely perform the sorts of deductive reasoning seen in the average TV cop show (\"The murder was left handed because this knife has a specialized handle\"). Sherlock Holmes has a +10 Awareness. Players without skill may only use their Intelligence Stat."
+      },
+      {
+        "name": "Handgun",
+        "stat": "REF",
+        "score": 0,
+        "modifier": 1,
+        "description": "You must have this skill to effectively use handguns of any type, including cyberware types. At +2, you ca use a handgun on a target range, through combat will still rattle you. At +5, you are as skilled as most military officers of fancy shooting you see on TV, and have begun to get a reputation of being \"good with gun\". A +8, you are a recognized gunslinger with a \"rep\". The very sound of your name makes some people back down in fear. At +10, you are a legendary gunslinger, feared by all except the stupid young punks who keep trying to \"take\" you in innumerable gunfight challenges."
+      },
+      {
+        "name": "Human Perception",
+        "stat": "EMP",
+        "score": 0,
+        "modifier": 1,
+        "description": "The skill of detecting any evasions, moods and other emotional clues from others. At +2, you can usually feel when you're not getting the whole truth. At +6, you can detect subtle evasions and mood swings. At +8, you can not only detect subtle emotional clues, but can usually tell what the subject is hiding in a general way."
+      },
+      {
+        "name": "Athletics",
+        "stat": "REF",
+        "score": 0,
+        "modifier": 1,
+        "description": "This skill is required for accurate throwing, climbing, and balancing. It combines the basic elements of any high school level sports program. At +3 and above, you are the equivalent of a real high school \"jock\". At +5 and above, you can perform in college level competitions. At +8 and above, you are of Olympic or Professional caliber."
+      },
+      {
+        "name": "Education and General Knowledge",
+        "stat": "INT",
+        "score": 0,
+        "modifier": 1,
+        "description": "This skill is the equivalent of a basic public school education, allowing you to know how to read, write, use basic math, and know enough history to get by. In effect, it is a \"lore\" or trivaia skill. A level of +1 is a basic grade school education. A skill of +2 is equal to a high school equivalency. A Knowledge Skill of +3 is equal to a college education, +4 or higher is equal to a Masters or Doctorate. At +7, you are an extremely well-educated person, and are asked to play Trival Pursuit a lot. At +9 and above, you are one of those people who knows a lot about everything (and hopefully has the good sense to keep his mouth shut)."
+      },
+      {
+        "name": "Brawling",
+        "stat": "REF",
+        "score": 0,
+        "modifier": 1,
+        "description": "The skill of fighting man to man with fist, feet and other parts of the body. Brawling is not a trained skill - it is learned on the Street by getting into a lot of fights. Unlike Martial Arts, there are no specialized attacks and no damage bonuses based on level of mastery."
+      },
+      {
+        "name": "Melee",
+        "stat": "REF",
+        "score": 0,
+        "modifier": 1,
+        "description": "The ability to use knives, axes, clubs and other hand to hand weapons in combat. Note: when using non-ranged cyberweapons such as rippers, scratchers, slice n'dices, cyberbeasts, and battlegloves, you must use this skill."
+      },
+      {
+        "name": "Interrogation",
+        "stat": "COOL",
+        "score": 0,
+        "modifier": 1,
+        "description": "The skill of drawing information from subject and forcing his secrets into open An Interrogation of +2 or better will allow to infallible find out if your boyfriend is lying to you. A +5, you are professional level interrogator - equivalent to skilled detective grilling a suspect. Mike Wallace 60 Minutes has an Interrogation +9, allowing him to make even most powerful people squirm."
+      },
+      {
+        "name": "Streetwise",
+        "stat": "COOL",
+        "score": 0,
+        "modifier": 1,
+        "description": "The knowledge of the \"seamy\" ways of life - where to get illegal and contraband things, how to talk to the criminal environment, and avoiding bad situations in bad neighborhoods. With Streetwise of +3 or better, you can get \"hot\" items, torture drugs, etc. A Streetwise of +5 would know you to arrange a murder contract, you know a few mobsters who might owe you, and be able to call on muscle when you need it. At +8 or better, you could become a major crimelord yourself and the middlemen."
+      }
+    ]
+  },
+  {
+    "name": "Corporates",
+    "description": "In the old days, they would have called you a yuppie - a hard driven, fast-track MBA on his way up the Corporate ladder. Sure, it's selling your soul to the Company, but face it; the Corporations rule the cyberpunk world. They control governments, markets, nations, armies - you name it. And you know that whoever controls the Corporations controls everything else. Right bow, your life as a junior executive is anything but easy. There are guys underneath you who'd kill for a shot at your job. There are guys over you who'd kill to keep out of their jobs. And they're not kidding about the killing - every up and comer in the Corporation has his own crew of Solos and Netrunners to cover his pet projects. Sabotage? Constantly. Bribery? Routine. Blackmail? Common. Promotion by assassination? Always a possibility. The stakes are that high - one slip and you could be out on the Street with the rest of the trash. Or dead. And the projects your supervisors give you! Some are pretty straightforward; design a new productivity schedule for the Corporation's medical subsidiary. Some are pretty raw - send a \"black operations\" team into the City to spread a designer plague so the Marketing team can clean up selling the vaccine. Last week, you led a mixed team of Solos, 'Runners and Techies on a headhunting run to kidnap a researcher from a rival company. The week before, your project was to steal plans for a new suborbital shuttle from the EuroSpace Agency (so that the Aerospace Division could copy the design and sell it to the Soviets). You told yourself you joined the Corporation to make it better place - work from the inside, you said. But now you're not sure. Your ideals are a little tarnished and things are getting pretty bleak. But you can't worry about ethics now. You've got a report due in an hour, and it looks like that guy in Sales is planning to ice your database for good. You're gonna ice him first.",
+    "primarySkill": {
+      "name": "Resources",
+      "stat": "INT",
+      "special": true,
+      "score": 0,
+      "modifier": 1,
+      "description": "This represents the Corporate's ability to command corporation resources. It is used as a persuasion skill, based on the scale of resources requested. This could include bodyguards, weapons, vehicles, buildings, money, etc. Obviously, the more powerful the Corporate, the more he can call upon at any one time. Your level of Resources determines exactly how much you can request from the Corporation without overreaching yourself. A Resource ability +2 might get you access to a Company car. An ability of +6 might allow you to use the Corporate Security Division. A Resources of +9 would allow you access to almost all levels of the Corporation, as well as the ability to requisition almost any Company resource. Your Resource ability is applied to your INT stat."
+    },
+    "careerSkills": [
+      {
+        "name": "Awareness/Notice",
+        "stat": "INT",
+        "score": 0,
+        "modifier": 1,
+        "description": "This is equivalent of a \"trained observer\" skill, allowing characters to notice or be aware of clues, shadowers and other events. With an Awareness of +2 you will usually spot small pieces of paper with noted on them, doors left ajar , and obvious expressions of lying or dislike. An Awareness of +5 or better allows you to spot fairly well hidden clues, and fairly sophisticated attempts to \"shadow\" you. With an Awareness of +8 or greater, you routinely perform the sorts of deductive reasoning seen in the average TV cop show (\"The murder was left handed because this knife has a specialized handle\"). Sherlock Holmes has a +10 Awareness. Players without skill may only use their Intelligence Stat."
+      },
+      {
+        "name": "Human Perception",
+        "stat": "EMP",
+        "score": 0,
+        "modifier": 1,
+        "description": "The skill of detecting any evasions, moods and other emotional clues from others. At +2, you can usually feel when you're not getting the whole truth. At +6, you can detect subtle evasions and mood swings. At +8, you can not only detect subtle emotional clues, but can usually tell what the subject is hiding in a general way."
+      },
+      {
+        "name": "Education and General Knowledge",
+        "stat": "INT",
+        "score": 0,
+        "modifier": 1,
+        "description": "This skill is the equivalent of a basic public school education, allowing you to know how to read, write, use basic math, and know enough history to get by. In effect, it is a \"lore\" or trivaia skill. A level of +1 is a basic grade school education. A skill of +2 is equal to a high school equivalency. A Knowledge Skill of +3 is equal to a college education, +4 or higher is equal to a Masters or Doctorate. At +7, you are an extremely well-educated person, and are asked to play Trival Pursuit a lot. At +9 and above, you are one of those people who knows a lot about everything (and hopefully has the good sense to keep his mouth shut)."
+      },
+      {
+        "name": "Library Search",
+        "stat": "INT",
+        "score": 0,
+        "modifier": 1,
+        "description": "The skill of using databases, DataTerm, libraries and other compiled information sources to find facts. With a skill of +2 you can use most simple databases. With a skill of +6, you can easily access the Library Congress. At +9, you can comprehend almost any public databases and find very obscure facts."
+      },
+      {
+        "name": "Social",
+        "stat": "EMP",
+        "score": 0,
+        "modifier": 1,
+        "description": "The ability to deal with social situations, like knowing the right fork to use or when not to tell the joke about farmer's daughter and the travelling cyberware salesman. A Social skill of +2 or better will allow you to get by at any fine restaurant or social function. At +5, you can lunch with the President with aplomb. No social situation will faze you , no matter what. At +8 or above, you can lecture Emily Post on what's proper."
+      },
+      {
+        "name": "Persuasion and Fast Talk",
+        "stat": "EMP",
+        "score": 0,
+        "modifier": 1,
+        "description": "The ability to talk others into doing what you want. This may be used individually or on large groups. At +3, you can win most debates or convince your girlfriend the blonde you were was your sister. At +5, you are a smooth talker of professional caliber. Ronald Reagan a Persuasion of +7. Hitler a Persuasion of +9."
+      },
+      {
+        "name": "Stock Market",
+        "stat": "INT",
+        "score": 0,
+        "modifier": 1,
+        "description": "The ability to play the Stock Market, engage in routine stock transactions and manipulate stocks profitably. At +2, you know enough to invest a bunk bonds and lose your shit. At +6, your investments pay off 75% of the time. At +9, you are a major heavy on the market, routinely dabble in international stocks, and can write articles on one subject of investment."
+      },
+      {
+        "name": "Wardrobe and Style",
+        "stat": "ATTR",
+        "score": 0,
+        "modifier": 1,
+        "description": "The skill of knowing the right clothes to wear, when to wear them, and how to look cool even in a spacesuit. With Wardrobe +2 or better, you are good at choosing clothes off the rack. At +6, your friends ask you for wardrobe tips, and you never buy anything off the rack. At +8 or better, you are one of those rare people whose personal style influences major fashion trends."
+      },
+      {
+        "name": "Personal Grooming",
+        "stat": "ATTR",
+        "score": 0,
+        "modifier": 1,
+        "description": "This is the skill of knowing proper grooming, hair styling, etc., to maximize your physical attractiveness. Use of this skill allows players to increase their Attractiveness, and thus their chances of successful Relationships or Persuasion. A basically good looking person would be at +2. A fashion model might have a Personal Grooming of +5 or +6. At +8 or better, you could be major fashion model, film star, or trendsetter. You are always \"together\". And know it."
+      }
+    ]
+  },
+  {
+    "name": "Fixers",
+    "description": "You realized fast that you weren't ever going to get into a Corporate job. And you didn't think your were tough enough or crazy enough to be a Solo either. But as a small time punk, you knew you had a knack for figuring out what other people wanted, and how to get it for them. For price, of course. Now your deals have moved past the nickle-and-dime stuff into the big time. Maybe you move illegal weapons over the border. Or steal and resell medical supplies from the Corporations. Perhaps you're skill broker - acting as an agent for high priced Solos and 'Runners, or ever hiring a whole Nomad pack to back a client's contacts. You buy and sell favors like an old-style Mafia godfather. You have connections into all kinds of businesses, deals and political groups. You don't do this directly, of course - no, you see your contacts and allies as a part of vast web of intrigue and coersion. If there's a hot nightclub in the City, you've bought into it. If there are new military-class weapons on the Street, you smuggled'em in. If there's a Corporate war going down, you're negotiating between sides with an eye on the main chance. But you're not entirely in it for the bucks. If someone needs to get the heat off, you'll hide them. You get people housing when there isn't any, and you bring in food when the neighborhoods are blockaded. Maybe you do it because you know they'll owe you later, but you're not sure. You're one part Robin Hood and two parts Al Capone. Back in the 90's, they would have called you crimelord. But this is the fragmented, nasty, deadly 2020s. Now they call you a Fixer.",
+    "primarySkill": {
+      "name": "Streetdeal",
+      "stat": "COOL",
+      "special": true,
+      "score": 0,
+      "modifier": 1,
+      "description": "This is the ability to deal with the underground information network. With Streetdeal, a Fixer can uncover rumors and information, locate missing persons or things, put gossip out on the Street, pick up clues and score big deals. The higher your Streetdeal ability, the more information you can gather about things happening around you, the more informants you have, and the more secretive the information you can dig up. A level +3 Streetdeal can get you contacts for weapons, tools, or minor illegal operations. At level +5, you can penetrate the secrets of all but the more powerful crime families. At level +9, you are the equivalent of a Mafia crimelord yourself, privy to every secret that's on the Street. Apply Streetdeal to your Cool stat."
+    },
+    "careerSkills": [
+      {
+        "name": "Awareness/Notice",
+        "stat": "INT",
+        "score": 0,
+        "modifier": 1,
+        "description": "This is equivalent of a \"trained observer\" skill, allowing characters to notice or be aware of clues, shadowers and other events. With an Awareness of +2 you will usually spot small pieces of paper with noted on them, doors left ajar , and obvious expressions of lying or dislike. An Awareness of +5 or better allows you to spot fairly well hidden clues, and fairly sophisticated attempts to \"shadow\" you. With an Awareness of +8 or greater, you routinely perform the sorts of deductive reasoning seen in the average TV cop show (\"The murder was left handed because this knife has a specialized handle\"). Sherlock Holmes has a +10 Awareness. Players without skill may only use their Intelligence Stat."
+      },
+      {
+        "name": "Forgery",
+        "stat": "TECH",
+        "score": 0,
+        "modifier": 1,
+        "description": "The skill of copying and creating false documents and identifications. This skill Forgery also be applied to the detection of same; if you can fake it, you can usually tell a fake as well."
+      },
+      {
+        "name": "Handgun",
+        "stat": "REF",
+        "score": 0,
+        "modifier": 1,
+        "description": "You must have this skill to effectively use handguns of any type, including cyberware types. At +2, you ca use a handgun on a target range, through combat will still rattle you. At +5, you are as skilled as most military officers of fancy shooting you see on TV, and have begun to get a reputation of being \"good with gun\". A +8, you are a recognized gunslinger with a \"rep\". The very sound of your name makes some people back down in fear. At +10, you are a legendary gunslinger, feared by all except the stupid young punks who keep trying to \"take\" you in innumerable gunfight challenges."
+      },
+      {
+        "name": "Brawling",
+        "stat": "REF",
+        "score": 0,
+        "modifier": 1,
+        "description": "The skill of fighting man to man with fist, feet and other parts of the body. Brawling is not a trained skill - it is learned on the Street by getting into a lot of fights. Unlike Martial Arts, there are no specialized attacks and no damage bonuses based on level of mastery."
+      },
+      {
+        "name": "Melee",
+        "stat": "REF",
+        "score": 0,
+        "modifier": 1,
+        "description": "The ability to use knives, axes, clubs and other hand to hand weapons in combat. Note: when using non-ranged cyberweapons such as rippers, scratchers, slice n'dices, cyberbeasts, and battlegloves, you must use this skill."
+      },
+      {
+        "name": "Pick Lock",
+        "stat": "TECH",
+        "score": 0,
+        "modifier": 1,
+        "description": "The skill required to pick locks and break into sealed containers and rooms. At +3, you can jimmy most simple locks. At +6 you can crack most safes. At +9 or better, you have a rep as master crackman, and are known to all the major players in the Cyberpunk world."
+      },
+      {
+        "name": "Pick Pocket",
+        "stat": "TECH",
+        "score": 0,
+        "modifier": 1,
+        "description": "The required skill for picking pockets without being noticed, as well as \"shoplifting\" small items. For ideas on levels of ability see Pick Lock."
+      },
+      {
+        "name": "Intimidate",
+        "stat": "COOL",
+        "score": 0,
+        "modifier": 1,
+        "description": "The skill of getting people to do what you want by forcing personality or physical coercion. At +3, you can frighten almost any typical citizen, politician or low-level thug. At +6, you can intimidate Sylvester Stallone or any moderate \"tough guy\". At +9, you could intimidate Arnold Schwarzenegger."
+      },
+      {
+        "name": "Persuasion and Fast Talk",
+        "stat": "EMP",
+        "score": 0,
+        "modifier": 1,
+        "description": "The ability to talk others into doing what you want. This may be used individually or on large groups. At +3, you can win most debates or convince your girlfriend the blonde you were was your sister. At +5, you are a smooth talker of professional caliber. Ronald Reagan a Persuasion of +7. Hitler a Persuasion of +9."
+      }
+    ]
+  },
+  {
+    "name": "Nomads",
+    "description": "They drove your family off the Farm ten years ago. The Corporations rolled in, took over the land, and put rent-a-cops all over the place. It wasn't the first time it'd happened; it wouldn't be the last. Gradually, your family fell in with a bunch of other homeless families, and they met another group... until you'd create a Nomad pack of nearly two hundred members. Now, crammed into a huge, ragtag fleet of cars, vans, busses and RV's, your Nomad pack roams the freeways. You look for supplies, odd jobs and spare parts in the world where society has fragmented. The pack is your home - it has teachers, Med Techs, leaders, and mechanics - it's virtually a town on wheels in which everyone is related by marriage or kinship. Sometimes the Pack pulls into a town just to fuel up or get grub. Other times, it swings south to follow the harvest; you pick crops in trade for cash or food. Less terrorizing cities and hiring out as muscle in Corporate wars. For obvious reasons, the cops don't like Nomads. But it doesn't matter - your vehicle are usually well armored and bristling with stolen weapons; mini guns, rocket launchers and the like. Every kid knows how to use rifle, and everyone packs a knife. Being homeless in the 2000's isn't easy. The most visible members of the Pack are the Scouts - leather armored riders on bikes or in fast muscle cars, who protect the convoy from attacks and hunt up safe campsites. As a Scout, you're on the lookout for trouble, and you usually can find enough of it, with rival Nomad Packs, the Law, and the cowboy, you ride the hard trail. You've got a gun, a bike and that's all you need. You're a Nomad.",
+    "primarySkill": {
+      "name": "Family",
+      "stat": "INT",
+      "special": true,
+      "score": 0,
+      "modifier": 1,
+      "description": "This is the ability to call upon the resources and help of any of the members of the Nomad's large, extended tribal family. This can be in the form of weapons, cash, information, or a small army of relatives. The threat of a Nomad family's vengeance may in itself stop harm to the Nomad. The higher your Family ability, the more important you are to the Family and the more help you can call upon. With a Family status +2, you might be able to get several of the Pack to help you wreck a town, for example. With a status +7 or +8, you are able to make major Pack decisions and lead troops. At +10, you may be the Leader of your Pack. Family is applied to your Intelligence stat."
+    },
+    "careerSkills": [
+      {
+        "name": "Awareness/Notice",
+        "stat": "INT",
+        "score": 0,
+        "modifier": 1,
+        "description": "This is equivalent of a \"trained observer\" skill, allowing characters to notice or be aware of clues, shadowers and other events. With an Awareness of +2 you will usually spot small pieces of paper with noted on them, doors left ajar , and obvious expressions of lying or dislike. An Awareness of +5 or better allows you to spot fairly well hidden clues, and fairly sophisticated attempts to \"shadow\" you. With an Awareness of +8 or greater, you routinely perform the sorts of deductive reasoning seen in the average TV cop show (\"The murder was left handed because this knife has a specialized handle\"). Sherlock Holmes has a +10 Awareness. Players without skill may only use their Intelligence Stat."
+      },
+      {
+        "name": "Endurance",
+        "stat": "BODY",
+        "score": 0,
+        "modifier": 1,
+        "description": "This is the ability to withstand pain or hardship, particularly over long periods of time, by knowing the best ways to conserve strength and energy. Endurance Skill checks would be made whenever a character must continue to be active a long period without food, sleep or water."
+      },
+      {
+        "name": "Melee",
+        "stat": "REF",
+        "score": 0,
+        "modifier": 1,
+        "description": "The ability to use knives, axes, clubs and other hand to hand weapons in combat. Note: when using non-ranged cyberweapons such as rippers, scratchers, slice n'dices, cyberbeasts, and battlegloves, you must use this skill."
+      },
+      {
+        "name": "Rifle",
+        "stat": "REF",
+        "score": 0,
+        "modifier": 1,
+        "description": "You must have this skill to use riffle/shotguns effectively (see Handgun limitations and modifiers)."
+      },
+      {
+        "name": "Driving",
+        "stat": "REF",
+        "score": 0,
+        "modifier": 1,
+        "description": "This skill allows you to pilot all ground vehicles like cars, trucks, tanks and hovercraft. This skill is not usable for piloting aircraft. A skill +3 is equal to that of a very good non-professional driver. A skill of +6 allows you to drive with the skill of a moderately skilled race driver. An driver with skill of +8 or greater will be nationally ship races, and possibly have access to the most advanced ground vehicles available (as long as he makes an endorsement)."
+      },
+      {
+        "name": "Basic Tech",
+        "stat": "TECH",
+        "score": 0,
+        "modifier": 1,
+        "description": "The required skill for building or repairing simple mechanical and electrical devices, such as car engines, television sets, etc. With a Basic Tech Skill of +3, or better, you can fix minor car problems, repair basic wiring, etc. A Basic Tech Skill of +6 or better can repair stereos and TVs, rebuild an engine, etc. A Basic Tech Skill of +9 or better can build a simple computer from scratch, put together a race car engine, and maintain any kind of industrial machinery. However, they do not know enough specialized knowledge to apply it to complex things such as aircraft (just like Mr. Goodwrench) doesn't know how to build and service an F-16)."
+      },
+      {
+        "name": "Wilderness Survival",
+        "stat": "INT",
+        "score": 0,
+        "modifier": 1,
+        "description": "The required skill for knowing how to survive in the wilds. Knowledge includes how to set traps, forage for wood, track game, build shelters, make fires. The average Boy Scout has a Survival of +3. A special Forces Green Beret has a Survival of +6 or above. Crizzly Adams, Mountain Man of the Wilderness, would have +9 or +10 Survival Skill."
+      },
+      {
+        "name": "Brawling",
+        "stat": "REF",
+        "score": 0,
+        "modifier": 1,
+        "description": "The skill of fighting man to man with fist, feet and other parts of the body. Brawling is not a trained skill - it is learned on the Street by getting into a lot of fights. Unlike Martial Arts, there are no specialized attacks and no damage bonuses based on level of mastery."
+      },
+      {
+        "name": "Athletics",
+        "stat": "REF",
+        "score": 0,
+        "modifier": 1,
+        "description": "This skill is required for accurate throwing, climbing, and balancing. It combines the basic elements of any high school level sports program. At +3 and above, you are the equivalent of a real high school \"jock\". At +5 and above, you can perform in college level competitions. At +8 and above, you are of Olympic or Professional caliber."
+      }
+    ]
+  }
+]
