@@ -1,5 +1,5 @@
 import { Context } from 'koa';
-import { extend } from 'lodash';
+import { extend, merge } from 'lodash';
 
 import { Player } from '../../classes/player';
 import { reduceSkills } from '../../helpers/skillsHelpers';
@@ -16,8 +16,8 @@ export async function updateCharacter(ctx, next) {
   if (!character) {
     throw new Error('character not found');
   }
+  const player = await new Player(merge(character, body));
+  await Character.findByIdAndUpdate(id, player);
 
-  await extend(character, body).save();
-
-  ctx.body = character;
+  ctx.body = player;
 }

@@ -1,7 +1,8 @@
-import { get, each, extend } from 'lodash';
+import { get, each, extend, isEmpty, isArray } from 'lodash';
+import { reduceSkills, mergeSkills } from '../helpers/skillsHelpers';
 import { IStats } from '../models/character';
 import { ObjectID } from 'bson';
-
+import { IRole } from '../models/role';
 export class Player {
   public static STATSLIST = ['INT', 'REF', 'TECH', 'COOL', 'ATTR', 'LUCK', 'MA', 'BODY', 'EMP'];
 
@@ -14,8 +15,8 @@ export class Player {
   };
   public role: { name: string; description: string };
   public stats = {};
-  public careerSkills: {};
-  public pickupSkills: {};
+  public careerSkills = {};
+  public pickupSkills = {};
   public dynamicStats = { RUN: 0, LEAP: 0, LIFT: 0 };
 
   constructor({ _id, meta, role, stats, careerSkills, pickupSkills }) {
@@ -34,9 +35,16 @@ export class Player {
     this.setPickupSkills(pickupSkills);
   }
 
-  public async setRole(role) {
+  public async setRole(role: IRole) {
+    if (isEmpty(role)) {
+      throw new Error(`Critical Error: Role can't be empty`);
+    }
     // TODO: Write Role set method
-    this.role = { name: '', description: '' };
+    this.role = { name: role.name, description: role.description };
+    if (!isEmpty(role.careerSkills)) {
+      const skills = reduceSkills([role.primarySkill as any, ...(role.careerSkills as [])]);
+      await this.setCareerSkills(skills);
+    }
   }
 
   public async setStats(stats: IStats) {
@@ -58,13 +66,14 @@ export class Player {
     this.dynamicStats.LIFT = (this.stats as IStats).BODY * 10;
   }
 
-  public async setCareerSkills(skillList) {
+  public async setCareerSkills(skillList = {}) {
     // TODO: Write Skill set method
-    this.careerSkills = extend(this.careerSkills, skillList);
+
+    this.careerSkills = mergeSkills(this.careerSkills, skillList);
   }
 
-  public async setPickupSkills(skillList) {
+  public async setPickupSkills(skillList = {}) {
     // TODO: Write Skill set method
-    this.pickupSkills = extend(this.pickupSkills, skillList);
+    this.pickupSkills = mergeSkills(this.pickupSkills, skillList);
   }
 }
