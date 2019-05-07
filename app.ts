@@ -4,6 +4,7 @@ import * as Router from 'koa-router';
 import * as websocket from 'koa-easy-ws';
 import * as koaQs from 'koa-qs';
 import { broadcast } from './middlewares/broadcaster';
+import { router as chat } from './routes/chat';
 import { router as roll } from './routes/roll';
 import { router as live } from './routes/live';
 import { router as character } from './routes/character';
@@ -31,6 +32,7 @@ app.use(async (ctx, next) => {
 
 const router = new Router();
 
+router.use('/chat', chat.routes());
 router.use('/roll', roll.routes());
 router.use('/live', live.routes());
 router.use('/character', character.routes());
